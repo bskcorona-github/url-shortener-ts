@@ -1,0 +1,27 @@
+{
+  "name": "url-shortener-ts",
+  "version": "1.0.0",
+  "description": "A simple URL shortener utility in TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "clean": "rm -rf dist",
+    "shorten": "ts-node src/index.ts"
+  },
+  "keywords": [
+    "typescript",
+    "url",
+    "shortener",
+    "cli",
+    "utility"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0",
+    "@types/node": "^20.0.0"
+  }
+}
